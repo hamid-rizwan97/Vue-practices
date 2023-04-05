@@ -1,8 +1,11 @@
-import Vue from 'vue'
-import App from './App.vue'
+import Vue from "vue"
+import App from "./App.vue"
+import ninjas from "./ninjas.vue"
 
-Vue.config.productionTip = false
+Vue.component('ninjas',ninjas)
+Vue.config.productionTip = false;
 
 new Vue({
-  render: h => h(App),
-}).$mount('#app')
+  el:'#app',
+  render: (h) => h(App),
+}).$mount("#app");
