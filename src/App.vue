@@ -11,7 +11,6 @@
     <customDirectives> </customDirectives>
     <filters></filters>
     <filterComputed></filterComputed>
-    <Mixin></Mixin>
   </div>
 </template>
 
@@ -25,7 +24,6 @@ import customDirectives from "./components/customDirectives.vue";
 import filters from "./components/filters.vue";
 import filterComputed from "./components/filterComputed.vue";
 export default {
-  mixins:[fruitmixin],
   components: {
     add: add,
     biniding: binding,
