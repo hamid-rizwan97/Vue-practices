@@ -27,6 +27,7 @@ export default {
   computed: {
     changeName() {
         this.name=this.$refs.changename.value;
+        changeName();
     },
     showName() {
       this.name = "Hamid";

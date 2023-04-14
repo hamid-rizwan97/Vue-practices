@@ -11,6 +11,7 @@
     <customDirectives> </customDirectives>
     <filters></filters>
     <filterComputed></filterComputed>
+    <postData></postData>
   </div>
 </template>
 
@@ -23,6 +24,7 @@ import properties from "./components/properties.vue";
 import customDirectives from "./components/customDirectives.vue";
 import filters from "./components/filters.vue";
 import filterComputed from "./components/filterComputed.vue";
+import postData from "./components/postData.vue";
 export default {
   components: {
     add: add,
@@ -33,6 +35,7 @@ export default {
     customDirectives: customDirectives,
     filters:filters,
     filterComputed:filterComputed,
+    postData:postData
   },
 
   data() {
